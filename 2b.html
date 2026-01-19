@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    table {
+        border-collapse:collapse;
+        width:90%;
+        text-align:center;
+        font-family:Arial, sans-serief;
+    }
+    th,td { 
+        border:2px solid black;
+        padding:15px; 
+    }
+    .vertical  {
+        writing-mode:vertical-rl;
+        transform:rotate(180deg);
+        font-weight:bold;
+    }
+</style>
+    <title>Time Table</title>
+</head>
+<body>
+    <h2>Class Time Table</h2>
+    <table border="1" cellpadding="5" cellspacing="10">
+        <caption><b>Weekly Time Table</b></caption>
+        <tr>
+            <th>DAY/HOUR</th>
+            <th>8:20-9:10</th>
+            <th>9:10-10:00</th>
+            <th>10:00-10:20</th>
+            <th>10:20-11:10</th>
+            <th>11:10-12:00</th>
+            <th>12:00-12:50</th>
+            <th>12:50-1:40</th>
+            <th>1:40-2:30</th>
+            <th>2:30-2:50</th>
+            <th>2:50-3:50</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="2">FSD LAB</td>
+            <td rowspan="6" class="vertical"><b>BREAK</b></td>
+            <td>DBMS</td>
+            <td>MEFA</td>
+            <td rowspan="6" class="vertical"><b>LUNCH</b></td>
+            <td>CN</td>
+            <td>P&S</td>
+            <td rowspan="6" class="vertical"><b>BREAK</b></td>
+            <td>OS</td>
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td>MEFA</td>
+            <td>CN</td>
+            <td>P&S</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>FSD</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>DBMS</td>
+            <td>MEFA</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td>CN</td>
+            <td>COUNS</td>
+            <td>P&S</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td colspan="2">OS&CN LAB</td>
+            <td>DBMS</td>
+            <td>FSD</td>
+            <td>P&S</td>
+            <td>OS</td>
+            <td>MEFA</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td>OS</td>
+            <td>FSD</td>
+            <td colspan="2">DBMS LAB</td>
+            <td>DTI</td>
+            <td>CLUBS</td>
+            <td>CLUBS</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td>QUANT</td>
+            <td>REASONING</td>
+            <td>DBMS</td>
+            <td>P&S</td>
+            <td>MEFA</td>
+            <td>VERBAL</td>
+            <td>DTI</td>
+        </tr>
+    </table>
+</body>
+</html>
