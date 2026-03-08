@@ -1,0 +1,48 @@
+#curious
+{
+    background-color: rgb(130, 177, 19);
+}
+.change
+{
+   list-style-type: disc;
+   color: #F5F5F5;
+}
+h2,h3,h4
+{
+    background-color: tomato;
+    font-family: cursive;
+}
+*
+{
+    background-color:skyblue;
+    
+}
+ul li {
+    font-style: italic;
+}
+body > h2 {
+    text-decoration: underline;
+    color: darkred;
+}
+h2 + p {
+    border: 2px solid lightpink;
+    padding: 10px;
+    background-color: aliceblue;
+}
+h3 ~ pre, h3 ~ ul {
+    margin-top: 30px;
+    border-top: 3px dashed green;
+    padding-top: 15px;
+}
+li:nth-child(odd) {
+    background-color: #e65a5a;
+}
+p::first-letter {
+    font-size: 2em;
+    color: darkcyan;
+    float: left;
+    margin-right: 5px;
+}
+a[target="_blank"] {
+    cursor: crosshair;
+}
