@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>External css</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>This is green color</h1>
-        <p>This is blue color</p>
-    </body>
-</html>
+.external {
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
